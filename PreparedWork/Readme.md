@@ -1,4 +1,17 @@
-# Docker安裝流程 (for win10)
+# 課前準備工作
+
+## 安裝工具
+- Docker
+- Azure cli (https://docs.microsoft.com/zh-tw/cli/azure/install-azure-cli-windows?view=azure-cli-latest)
+- Visual Studio Code (https://code.visualstudio.com/)
+- Visual Studio Code 套件
+    - https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker
+    - https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools
+    - https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account
+    - https://marketplace.visualstudio.com/items?itemName=ms-vscode.azurecli
+
+
+## Docker安裝流程 (for win10)
 1. win10啟用Hyper-v
 
 ![](images/1.PNG)
