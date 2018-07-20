@@ -15,8 +15,9 @@
 * 五、Azure Kubernetes Service Introdcution
 * 六、常用Commands
 * 七、Yaml檔設計方式
-* 八、Helm - k8s套件管理工具
-* 九、Hands-On Practice
+* 八、Helm - k8s套件管理工具 Instroduction
+* 九、Helm Chart Template 設計方式
+* 十、Hands-On Practice
 
 
 # VSTS CI/CD tools tutorial 課程大綱
