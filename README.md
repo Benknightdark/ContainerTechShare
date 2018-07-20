@@ -8,7 +8,7 @@
 * 七、Hands-On Practice
 
 # Kubernetes Tutorial For Developer 課程大綱
-* 一、Docker叢集管理工具
+* 一、Docker叢集管理工具簡介
 * 二、What is Kubernetes
 * 三、Architecture
 * 四、Why Use Kubernetes
