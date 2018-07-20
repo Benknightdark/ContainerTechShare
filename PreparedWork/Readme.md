@@ -44,12 +44,15 @@
 12. 開啟Command line 程式，輸入 docker -v 查詢目前本機的docker版本
 
 ![](images/11.PNG)
+
 13. 輸入docker login，並輸入自己的Docker hub帳密
 
 ![](images/12.PNG)
+
 14. 輸入docker run hell-world，建立一個測試用Container
 
 ![](images/13.PNG)
+
 15. 輸入docker ps -a，查詢在step 13所建立的Conatainer是否有執行成功
 
 ![](images/14.PNG)
