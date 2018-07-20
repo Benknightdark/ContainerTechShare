@@ -4,3 +4,4 @@
 - https://store.docker.com/editions/community/docker-ce-desktop-windows
 
 # 登入完成後，會返回到下載Windows版本Docker的網頁，並滑至下方，會有兩種版本的Docker下載連結，請下載Edge Channel的版本
+# 當Docker安裝完成後，會自動登出目前的使用者帳號，
