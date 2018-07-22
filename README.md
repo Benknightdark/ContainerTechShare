@@ -12,10 +12,10 @@
 * 二、What is Kubernetes
 * 三、Architecture
 * 四、Why Use Kubernetes
-* 五、Azure Kubernetes Service Introdcution
+* 五、Azure Kubernetes Service 簡介
 * 六、常用Commands
 * 七、Yaml檔設計方式
-* 八、Helm - k8s套件管理工具 Instroduction
+* 八、Helm - k8s套件管理工具 簡介
 * 九、Helm Chart Template 設計方式
 * 十、Hands-On Practice
 
