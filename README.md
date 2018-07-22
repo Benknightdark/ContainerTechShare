@@ -22,5 +22,5 @@
 
 # VSTS CI/CD tools tutorial 課程大綱 (上課次數：1-2次)
 * 一、Why Use CI/CD tools
-* 二、VSTS CI/CD Tools Introduction
+* 二、VSTS CI/CD Tools 簡介
 * 三、Hands-on Practice
