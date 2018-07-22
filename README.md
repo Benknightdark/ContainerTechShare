@@ -1,4 +1,4 @@
-# Docker Tutorial For Developer 課程大綱
+# Docker Tutorial For Developer 課程大綱 (上課次數：1-2次)
 * 一、What is Docker
 * 二、Docker v.s. VM
 * 三、Architecture
@@ -7,7 +7,7 @@
 * 六、Dockerfile設計方式
 * 七、Hands-On Practice
 
-# Kubernetes Tutorial For Developer 課程大綱
+# Kubernetes Tutorial For Developer 課程大綱 (上課次數：2-4次)
 * 一、Docker叢集管理工具簡介
 * 二、What is Kubernetes
 * 三、Architecture
@@ -20,7 +20,7 @@
 * 十、Hands-On Practice
 
 
-# VSTS CI/CD tools tutorial 課程大綱
+# VSTS CI/CD tools tutorial 課程大綱 (上課次數：1-2次)
 * 一、Why Use CI/CD tools
 * 二、VSTS CI/CD Tools Introduction
 * 三、Hands-on Practice
