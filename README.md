@@ -27,5 +27,6 @@
 
 # 課程適合對象
 * 不排斥使用Command Line工具
-* 想要開放跨平台應用程式
+* 不排斥使用Open Source Solution
+* 想要開發跨平台應用程式
 * 非重度windows os 使用者
