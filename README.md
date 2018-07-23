@@ -24,3 +24,8 @@
 * 一、Why Use CI/CD tools
 * 二、VSTS CI/CD Tools 簡介
 * 三、Hands-on Practice
+
+# 課程適合對象
+* 不排斥使用Command Line工具
+* 想要開放跨平台應用程式
+* 非重度windows os 使用者
