@@ -1,6 +1,4 @@
-#下載ubuntu Image
 FROM ubuntu:18.04 as baseImage
-# 安裝dotnet core sdk 
 RUN apt-get update 
 RUN apt-get install wget -y && apt-get install gpg -y
 RUN wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.asc.gpg
