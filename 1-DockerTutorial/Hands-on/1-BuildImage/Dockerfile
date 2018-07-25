@@ -1,4 +1,6 @@
+#下載ubuntu Image
 FROM ubuntu:18.04 as baseImage
+# 安裝dotnet core sdk 
 RUN apt-get update 
 RUN apt-get install wget -y && apt-get install gpg -y
 RUN wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.asc.gpg
@@ -10,6 +12,9 @@ RUN chown root:root /etc/apt/sources.list.d/microsoft-prod.list
 RUN apt-get install apt-transport-https
 RUN apt-get update
 RUN apt-get install dotnet-sdk-2.1 -y
+# 複製dotnet core mvc web site Publish Files到Image
 COPY ./publish/. .
-#EXPOSE 80 5000
-ENTRYPOINT ["dotnet", "DockerMVC.dll"]
+# 開啟Container對外的5000port
+EXPOSE 5000
+# 執行dotnet core mvc website 
+ENTRYPOINT ["dotnet", "DockerMVC.dll", "--server.urls", "http://*:5000"]
