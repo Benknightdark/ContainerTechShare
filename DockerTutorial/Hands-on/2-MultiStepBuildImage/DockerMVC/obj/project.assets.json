@@ -11506,11 +11506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Case\\DockerTutorial\\Hands-on\\2-MultiStepBuildImage\\DockerMVC\\DockerMVC.csproj",
+      "projectUniqueName": "d:\\Case\\ContainerTechShare\\DockerTutorial\\Hands-on\\2-MultiStepBuildImage\\DockerMVC\\DockerMVC.csproj",
       "projectName": "DockerMVC",
-      "projectPath": "D:\\Case\\DockerTutorial\\Hands-on\\2-MultiStepBuildImage\\DockerMVC\\DockerMVC.csproj",
+      "projectPath": "d:\\Case\\ContainerTechShare\\DockerTutorial\\Hands-on\\2-MultiStepBuildImage\\DockerMVC\\DockerMVC.csproj",
       "packagesPath": "C:\\Users\\smart\\.nuget\\packages\\",
-      "outputPath": "D:\\Case\\DockerTutorial\\Hands-on\\2-MultiStepBuildImage\\DockerMVC\\obj\\",
+      "outputPath": "d:\\Case\\ContainerTechShare\\DockerTutorial\\Hands-on\\2-MultiStepBuildImage\\DockerMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
