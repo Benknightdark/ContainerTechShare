@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/DockerTutorial/Hands-on/2-MultiStepBuildImage/DockerMVC/DockerMVC.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
