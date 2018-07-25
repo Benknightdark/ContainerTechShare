@@ -12,9 +12,4 @@ RUN chown root:root /etc/apt/sources.list.d/microsoft-prod.list
 RUN apt-get install apt-transport-https
 RUN apt-get update
 RUN apt-get install dotnet-sdk-2.1 -y
-# 複製dotnet core mvc web site Publish Files到Image
-COPY ./publish/. .
-# 開啟Container對外的5000port
-EXPOSE 5000
-# 執行dotnet core mvc website 
-ENTRYPOINT ["dotnet", "DockerMVC.dll", "--server.urls", "http://*:5000"]
+

@@ -11500,28 +11500,30 @@
     ]
   },
   "packageFolders": {
-    "/home/ben/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\smart\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/d/Case/ContainerTechShare/1-DockerTutorial/Hands-on/2-MultiStepBuildImage/DockerMVC/DockerMVC.csproj",
+      "projectUniqueName": "d:\\Case\\ContainerTechShare\\1-DockerTutorial\\Hands-on\\3-MultiStepBuildImage\\DockerMVC\\DockerMVC.csproj",
       "projectName": "DockerMVC",
-      "projectPath": "/mnt/d/Case/ContainerTechShare/1-DockerTutorial/Hands-on/2-MultiStepBuildImage/DockerMVC/DockerMVC.csproj",
-      "packagesPath": "/home/ben/.nuget/packages/",
-      "outputPath": "/mnt/d/Case/ContainerTechShare/1-DockerTutorial/Hands-on/2-MultiStepBuildImage/DockerMVC/obj/",
+      "projectPath": "d:\\Case\\ContainerTechShare\\1-DockerTutorial\\Hands-on\\3-MultiStepBuildImage\\DockerMVC\\DockerMVC.csproj",
+      "packagesPath": "C:\\Users\\smart\\.nuget\\packages\\",
+      "outputPath": "d:\\Case\\ContainerTechShare\\1-DockerTutorial\\Hands-on\\3-MultiStepBuildImage\\DockerMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/ben/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\smart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
