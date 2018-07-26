@@ -10,3 +10,4 @@ Arg ReleaseType
 ENV ASPNETCORE_ENVIRONMENT=${ReleaseType}
 COPY --from=publishImage /app/publish/. .
 ENTRYPOINT ["dotnet", "DockerMVC.dll"]
+
