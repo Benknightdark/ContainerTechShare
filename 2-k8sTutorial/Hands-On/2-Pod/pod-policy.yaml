@@ -8,6 +8,6 @@ spec:
   containers:
   - name: pod2-container
     image: ubuntu:14.04
-    command: ['bash', '-c', ' exit 1']
+    command: ['bash', '-c', ' exit 0']
     imagePullPolicy: IfNotPresent
   restartPolicy: OnFailure
