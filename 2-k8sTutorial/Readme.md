@@ -1,2 +1,4 @@
 https://github.com/kubernetes/kops/issues/5033
-https://jimmysong.io/posts/kubernetes-heapster-installation/
+
+
+https://medium.com/@fhitchen/adding-heapster-metrics-to-a-kubernetes-dashboard-on-arm-with-rbac-7758162c269f
