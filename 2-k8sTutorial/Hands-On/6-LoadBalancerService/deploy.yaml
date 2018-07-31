@@ -1,0 +1,33 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: mvc-docker-ben
+  namespace: ben
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: mvc-docker-ben
+    spec:
+      restartPolicy: Always
+      containers:
+      - name: docker-mvc
+        image: ikgacr.azurecr.io/docker-mvc:ben-prod
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
+          name: docker-mvc    
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mvc-docker-ben
+  namespace: ben
+spec:
+  loadBalancerIP: [your public ip]
+  ports:
+  - port: 80
+  selector:
+    app: mvc-docker-ben
+  type: LoadBalancer
