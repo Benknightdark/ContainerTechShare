@@ -5,3 +5,5 @@ https://medium.com/@fhitchen/adding-heapster-metrics-to-a-kubernetes-dashboard-o
 
 
 https://k8smeetup.github.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/
+
+az aks create --resource-group AKSRG --name demo-aks --node-count 3 --dns-name-prefix AKSRG --generate-ssh-keys --node-vm-size Standard_DS5_v2 --kubernetes-version 1.9.9 --no-wait
