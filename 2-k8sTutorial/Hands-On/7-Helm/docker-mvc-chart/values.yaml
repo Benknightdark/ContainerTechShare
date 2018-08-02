@@ -3,16 +3,16 @@
 # Declare variables to be passed into your templates.
 
 replicaCount: 3
-namespace: ikg-dev
+namespace: [YourNameSpace]
 image:
-  repository: ikgacr.azurecr.io/ikgwebapi
-  tag: latest
-  pullPolicy: Always
+  repository: [YourImage]
+  tag: [YourTag]
+  pullPolicy: IfNotPresent
 
 service:
   type: LoadBalancer
   port: 80
-  loadBalancerIP: 13.78.26.53
+  loadBalancerIP: [Your IP]
 ingress:
   enabled: false
   annotations: {}

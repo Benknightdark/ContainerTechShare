@@ -15,4 +15,12 @@ az network public-ip create -g MC_AKSRG_demo-aks_japaneast -n ben-dev --allocati
 
 az network public-ip show -g MC_AKSRG_demo-aks_japaneast -n ben-dev  --query "{fqdn: dnsSettings.fqdn, address: ipAddress}"
 
-https://storage.googleapis.com/kubernetes-helm/helm-v2.9.1-linux-amd64.tar.gz
+
+
+AKS_RESOURCE_GROUP=aksRG
+AKS_CLUSTER_NAME=demo-aks
+ACR_RESOURCE_GROUP=iKG_Container
+ACR_NAME=ikgAcr
+CLIENT_ID=$(az resource show -g aksRG -n demo-aks --resource-type Microsoft.ContainerService/managedClusters --query properties.nodeResourceGroup -o tsv)
+ACR_ID=$(az acr show --name ikgAcr --resource-group iKG_Container --query "id" --output tsv)
+az role assignment create --assignee $CLIENT_ID --role Reader --scope $ACR_ID
