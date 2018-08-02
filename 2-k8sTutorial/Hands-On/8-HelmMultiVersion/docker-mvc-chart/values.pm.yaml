@@ -3,16 +3,16 @@
 # Declare variables to be passed into your templates.
 
 replicaCount: 3
-namespace: [your namespace ]
+namespace: ben-pm
 image:
-  repository: [your repository]
-  tag: [yourtag]
-  pullPolicy: IfNotPresent
+  repository: ikgacr.azurecr.io/docker-mvc
+  tag: ben-pm
+  pullPolicy: Always
 
 service:
   type: LoadBalancer
   port: 80
-  loadBalancerIP: [yourip]
+  loadBalancerIP: 13.78.53.197
 ingress:
   enabled: false
   annotations: {}
