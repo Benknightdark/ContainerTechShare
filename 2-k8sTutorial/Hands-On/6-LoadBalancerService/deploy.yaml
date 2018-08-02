@@ -13,7 +13,7 @@ spec:
       restartPolicy: Always
       containers:
       - name: docker-mvc
-        image: ikgacr.azurecr.io/docker-mvc:ben-prod
+        image: [ACR login server]/[image]:[tag]
         imagePullPolicy: Always
         ports:
         - containerPort: 80
