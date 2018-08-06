@@ -1,0 +1,16 @@
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: nginx-auto-scale
+  namespace: default
+  labels:
+        app: nginx
+spec:
+  scaleTargetRef: #連結指定的Deployment
+    apiVersion: apps/v1
+    kind: Deployment
+    name: my-nginx
+  minReplicas: 1 #當所有連結的POD的平均CPU使用量小於50%，將pod備份最多縮減至1個
+  maxReplicas: 10 #當所有連結的POD的平均CPU使用量大於50%，將pod備份最多增加至10個
+  targetCPUUtilizationPercentage: 50
+  

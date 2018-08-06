@@ -25,7 +25,7 @@
 * 二、VSTS CI/CD Tools 簡介
 * 三、Hands-on Practice
 
-# ******課程適合對象
+# ***課程適合對象***
 * 不排斥使用Command Line工具
 * 不排斥使用Open Source Solution
 * 有Linux OS使用經驗
