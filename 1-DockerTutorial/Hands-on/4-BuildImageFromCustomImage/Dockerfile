@@ -7,5 +7,5 @@ RUN  dotnet publish  -c Release -o ./publish
 
 FROM microsoft/dotnet:2.1.2-aspnetcore-runtime as execImage
 COPY --from=publishImage /app/publish/. .
-EXPOSE 80
+#EXPOSE 80
 ENTRYPOINT ["dotnet", "DockerMVC.dll"]

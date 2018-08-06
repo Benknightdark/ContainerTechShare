@@ -9,6 +9,6 @@ FROM microsoft/dotnet:2.1.2-aspnetcore-runtime as execImage
 Arg ReleaseType
 ENV ASPNETCORE_ENVIRONMENT=${ReleaseType}
 COPY --from=publishImage /app/publish/. .
-EXPOSE 80
+#EXPOSE 80
 ENTRYPOINT ["dotnet", "DockerMVC.dll"]
 
