@@ -1,14 +1,14 @@
 apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
-  name: mvc-docker-ben
+  name: [YourName]
   namespace: [YourNameSpace]
 spec:
   replicas: 3
   template:
     metadata:
       labels:
-        app: mvc-docker-ben
+        app: [YourName]
     spec:
       restartPolicy: Always
       containers:
@@ -22,12 +22,12 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: mvc-docker-ben
+  name: [YourName]
   namespace: [YourNameSpace]
 spec:
   loadBalancerIP: [ip]
   ports:
   - port: 80
   selector:
-    app: mvc-docker-ben
+    app: [YourName]
   type: LoadBalancer
